@@ -9,6 +9,8 @@ namespace SHAS.Logic
     {
 
         public Boolean SHAS_Status { get; set; }
+
+        Thermostat thermostat = new Thermostat();
         
         
 
