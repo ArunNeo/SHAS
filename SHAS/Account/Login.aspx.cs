@@ -18,6 +18,7 @@ namespace SHAS.Account
             if (!String.IsNullOrEmpty(returnUrl))
             {
                 RegisterHyperLink.NavigateUrl += "?ReturnUrl=" + returnUrl;
+               
             }
         }
     }
